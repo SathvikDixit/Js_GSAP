@@ -17,3 +17,10 @@
 // })
 
 
+gsap.from("h1", {
+    opacity: 0,
+    duration: 3,
+    y: 45,
+    delay: 1,
+    stagger: 1 // It runs each element one at a time if there are lots of same tag elements...
+})
