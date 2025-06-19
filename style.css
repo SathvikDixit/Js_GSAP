@@ -60,9 +60,9 @@ html , body{
     border: 1px solid black;
 } */ 
 
-
+/* 
 #nav {
-    /* background-color: red; */
+    /* background-color: red; 
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -80,4 +80,27 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 100px;
+}  */
+
+
+
+
+/* GSAP  PART-2 */
+
+
+
+#page1 {
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+}
+#page2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(36, 189, 203);
+}
+#page3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(237, 99, 230);
 }
