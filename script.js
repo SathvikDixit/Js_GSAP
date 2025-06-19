@@ -36,3 +36,49 @@ gsap.to("#dabbi", {
     repeat: -1,  //repeat -1 for infinity loop
     yoyo: true
 })
+
+
+// gsap.to("#dabbi1", {
+//     x: 1000,
+//     duration: 1, 
+//     delay: 1,
+//     repeat: -1,    
+//     yoyo: true
+
+// })
+
+// gsap.to("#dabbi2", {
+//     x: 1000,
+//     duration: 1, 
+//     delay: 2,
+//     repeat: -1,    
+//     yoyo: true,
+// })
+
+// gsap.to("#dabbi3", {
+//     x: 1000,
+//     duration: 1, 
+//     delay: 3,
+//     repeat: -1,
+//     yoyo: true
+// })
+
+var tl = gsap.timeline()
+tl.to("#dabbi1", {
+    x:1000,
+    duration: 2,
+    delay: 1,
+    rotate: 360,
+
+})
+tl.to("#dabbi2", {
+    x:1000,
+    duration: 2,
+    rotate: 360,
+
+})
+tl.to("#dabbi3", {
+    x:1000,
+    duration: 2,
+    rotate: 360
+})
